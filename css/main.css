@@ -25,7 +25,7 @@ input[type=submit]             { cursor:pointer; }
 input[type="password"]         {  }
 input[type="checkbox"]	       { vertical-align: baseline !important; margin-top: 2px !important; }
 img, fieldset                  { border:0; }
-a                              { color: #FF3F00; text-decoration:none; }
+a, a:link                              { color: #FF3F00; text-decoration:none; }
 a:hover                        { color: #FF3F00; text-decoration:underline; }
 a:focus                        { outline: none; }
 button                         {  }
@@ -73,12 +73,22 @@ img                            {  }
 .btn-new-default:hover {
   color: #FF3F00;
 }
-.btn-new-small {
+.btn-small {
   width: auto;
   height: 32px;
   font-size: 14px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.btn-add {
+  text-transform: none;
+  font-weight: 300;
+}
+.btn-add .fa {
+  margin-right: 5px;
+}
+.btn-add .btn-text {
+  color: #444;
 }
 
 .btn-new-orange {
@@ -611,6 +621,150 @@ img                            {  }
 .testimonial-carousel .carousel-indicators > li.active {
   background: rgba(255,255,255,1);
 }
+
+/*----------------------------------------------------------------------------------*/
+/*---------------------------------> Page contact <---------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.page-contact {
+}
+.page-contact .map-block {
+  background: #AAA;
+  height: 426px;
+  margin: 26px 0 0;
+}
+.page-contact .address-list {
+}
+.page-contact .address-list > li {
+  margin-bottom: 100px;
+}
+.page-contact .address-list .title {
+  color: inherit;
+  border-bottom: 3px solid #EEE;
+  font-size: 22px;
+  font-weight: 400;
+  display: block;
+  padding: 0 0 12px;
+  margin: 82px 0 27px;
+}
+.page-contact .address-list .title .fa {
+  color: #EEE;
+  font-size: 26px;
+  margin: 0 5px 0 0;
+}
+.page-contact .address-list .title:hover,
+.page-contact .address-list .title.active {
+  color: #FF3F00;
+  border-color: #FF3F00;
+  text-decoration: none;
+}
+.page-contact .address-list .title:hover .fa,
+.page-contact .address-list .title.active .fa {
+  color: inherit;
+}
+.page-contact .address-list .address {
+  line-height: 1.55em;
+  font-size: 16px;
+  height: 75px;
+  margin: 0 0 15px;
+}
+.page-contact .address-list .phone {
+  display: block;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: #666;
+  margin: 0 0 7px;
+}
+.page-contact .address-list .email {
+  font-weight: 400;
+  color: #868686;
+  text-decoration: underline;
+}
+
+.page-contact .contact-form-block {
+  background: #EEE;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.contact-form-block {
+  padding-top: 50px;
+}
+.contact-form-block .caption {
+  font-size: 31px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.contact-form-block .caption-line {
+  width: 120px;
+  height: 3px;
+}
+.contact-form-block .gform_heading,
+.contact-form-block .gfield_label {
+  display: none;
+}
+
+.contact-form-block .gform_fields {
+  width: 28.5%;
+  float: left;
+}
+.contact-form-block .right-column {
+  width: 69%;
+  float: right;
+}
+.contact-form-block .with-captcha img {
+  margin: 0 8px 10px 2px;
+}
+.contact-form-block .btn-add {
+  float: left;
+  margin-right: 20px;
+}
+.contact-form-block .file-name {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 6px;
+}
+.contact-form-block .gform_body:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.contact-form-block .gform_footer .btn-new {
+  display: block;
+  margin: 30px auto 0;
+}
+
+
+.file-upload-block input[type="file"] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.input-block,
+.file-upload-block {
+  margin-bottom: 20px;
+}
+.input-block input,
+.input-block textarea {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(204,204,204,0.5);
+  background: rgba(255,255,255,0.5);
+  padding: 8px 12px;
+}
+.input-block textarea {
+  height: 160px;
+  resize: none;
+}
+
+
+
 
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/

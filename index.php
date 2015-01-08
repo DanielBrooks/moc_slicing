@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900,100,300italic,400italic,500' rel='stylesheet' type='text/css'>
-    
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <?php include('partials/_head.php'); ?>
   </head>
   <body>
     <div class="wrapper">
@@ -39,7 +26,7 @@
                 <div class="info-block">
                   <span class="title">Web apps</span>
                   <p class="text">We specialize in complex web systems, apps management and the most comprehensive back-end development.</p>
-                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                  <a href="#" class="btn-new btn-new-default btn-small">Read more</a>
                 </div>
               </li>
               <li>
@@ -49,7 +36,7 @@
                 <div class="info-block">
                   <span class="title">Mobile apps</span>
                   <p class="text">Leader in small business mobile app development provides you with bespoke marketing strategies that will immensely increase the visibility of your app.</p>
-                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                  <a href="#" class="btn-new btn-new-default btn-small">Read more</a>
                 </div>
               </li>
               <li>
@@ -59,7 +46,7 @@
                 <div class="info-block">
                   <span class="title">Games</span>
                   <p class="text">Our game development service includes customized mobile game development for iOS, Android, Blackberry and Windows Phone mobile platforms.</p>
-                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                  <a href="#" class="btn-new btn-new-default btn-small">Read more</a>
                 </div>
               </li>
             </ul>
@@ -344,8 +331,7 @@
         <p>&copy; Company 2014</p>
       </footer>
     </div>--> <!-- /container -->
-  <script src="js/vendor/jquery-1.11.1.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+    
+    <?php include('partials/_scripts.php'); ?>
   </body>
 </html>
