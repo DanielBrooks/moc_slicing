@@ -90,7 +90,7 @@
                 </div>
                 
                 <div class="gform_body">
-                  <ul id="gform_fields_1" class="gform_fields top_label description_below left-column">
+                  <ul id="gform_fields_1" class="gform_fields top_label description_below">
                     
                     <li id="field_1_1" class="gfield gfield_contains_required input-block">
                       <label class="gfield_label" for="input_1_1">Name<span class="gfield_required">*</span></label>
