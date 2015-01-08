@@ -73,6 +73,13 @@ img                            {  }
 .btn-new-default:hover {
   color: #FF3F00;
 }
+.btn-new-small {
+  width: auto;
+  height: 32px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 .btn-new-orange {
   background: #FF5C26;
@@ -306,6 +313,78 @@ img                            {  }
   height: 100%;
 }
 
+.page-home .home-caption {
+  font-size: 27px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.3em;
+  border-bottom: 1px solid #DDD;
+  padding: 93px 0 100px;
+}
+.page-home .services-block {
+  text-align: center;
+}
+.page-home .services-block .caption {
+  font-size: 31px;
+  font-weight: 400;
+  color: #777;
+  text-transform: uppercase;
+  padding: 50px 0 55px;
+}
+.page-home .service-list {
+  font-size: 0;
+}
+.page-home .service-list > li {
+  display: inline-block;
+  width: 300px;
+  margin: 0 0 60px 20px;
+  vertical-align: top;
+}
+.page-home .service-list > li:first-child {
+  margin-left: 0;
+}
+.page-home .service-list .title {
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 37px 0 17px;
+}
+.page-home .service-list .text {
+  font-size: 15px;
+}
+.page-home .service-list .icon-holder {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  background: #FF5C26;
+  border-radius: 50%;
+}
+.page-home .service-list .icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+}
+.page-home .service-list .icon-web {
+  width: 188px;
+  height: 157px;
+  background: url(../images/icon_service_1.png) no-repeat;
+}
+.page-home .service-list .icon-mobile {
+  width: 147px;
+  height: 177px;
+  background: url(../images/icon_service_2.png) no-repeat;
+}
+.page-home .service-list .icon-game {
+  width: 178px;
+  height: 153px;
+  background: url(../images/icon_service_3.png) no-repeat;
+}
+.page-home .service-list .btn-new {
+  margin-top: 30px;
+}
 
 .page-home .blog-block {
   text-align: center;

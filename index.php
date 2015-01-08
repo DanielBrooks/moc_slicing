@@ -22,6 +22,50 @@
         
         <?php include('partials/_header.php'); ?>
         
+        <h1 class="home-caption">
+          Master of Code is a global company that specializes
+          <br>
+          in world-class web and mobile software development.
+        </h1>
+        
+        <section class="services-block">
+          <div class="container">
+            <h2 class="caption">Services we provide</h2>
+            <ul class="service-list">
+              <li>
+                <div class="icon-holder">
+                  <span class="icon icon-web"></span>
+                </div>
+                <div class="info-block">
+                  <span class="title">Web apps</span>
+                  <p class="text">We specialize in complex web systems, apps management and the most comprehensive back-end development.</p>
+                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                </div>
+              </li>
+              <li>
+                <div class="icon-holder">
+                  <span class="icon icon-mobile"></span>
+                </div>
+                <div class="info-block">
+                  <span class="title">Mobile apps</span>
+                  <p class="text">Leader in small business mobile app development provides you with bespoke marketing strategies that will immensely increase the visibility of your app.</p>
+                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                </div>
+              </li>
+              <li>
+                <div class="icon-holder">
+                  <span class="icon icon-game"></span>
+                </div>
+                <div class="info-block">
+                  <span class="title">Games</span>
+                  <p class="text">Our game development service includes customized mobile game development for iOS, Android, Blackberry and Windows Phone mobile platforms.</p>
+                  <a href="#" class="btn-new btn-new-default btn-new-small">Read more</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
         <section class="testimonial-block">
           <h2 class="caption">Testimonials</h2>
           
