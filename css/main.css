@@ -109,7 +109,7 @@ img                            {  }
 .caption-line {
   display: block;
   width: 100%;
-  height: 1px;
+  height: 3px;
   background: #FF4000;
   position: absolute;
   left: 0;
@@ -191,6 +191,7 @@ img                            {  }
 }
 
 .header .phone-block {
+  display: block;
   float: right;
   width: 164px;
   height: 105px;
@@ -199,6 +200,9 @@ img                            {  }
   text-align: center;
   color: #FFF;
   padding-top: 23px;
+}
+.header .phone-block:hover {
+  text-decoration: none;
 }
 .header .phone-block span {
   display: block;
@@ -230,6 +234,7 @@ img                            {  }
 }
 .footer .caption .caption-line {
   background: #CCC;
+  height: 1px;
 }
 .footer .info-list {
   //margin: 35px 0 65px;
@@ -700,7 +705,6 @@ img                            {  }
 }
 .contact-form-block .caption-line {
   width: 120px;
-  height: 3px;
 }
 .contact-form-block .gform_heading,
 .contact-form-block .gfield_label {
@@ -763,6 +767,27 @@ img                            {  }
   resize: none;
 }
 
+
+.popup-contact-us {
+}
+.popup-contact-us .contact-form-block {
+  padding: 30px 50px 45px;
+}
+.popup-contact-us .hint-caption,
+.popup-contact-us .hint-text {
+  text-align: center;
+}
+.popup-contact-us .caption {
+  margin-bottom: 25px;
+}
+.popup-contact-us .hint-caption {
+  font-size: 18px;
+  font-weight: 400;
+}
+.popup-contact-us .hint-text {
+  color: #868686;
+  margin: 15px 0 50px;
+}
 
 
 

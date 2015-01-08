@@ -1,86 +1,27 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <?php include('partials/_head.php'); ?>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="page-contact">
-        
-        <?php include('partials/_header.php'); ?>
-        
-        <div class="map-block"></div>
-        
-        <div class="container">
-          <ul class="address-list row">
-            <li class="col-md-3">
-              <a href="#" class="title">
-                <span class="fa fa-map-marker"></span>
-                SF bay area
-              </a>
-              <p class="address">
-                541 Jefferson Ave, Suit 100
-                <br>
-                Redwood City,
-                <br>
-                CA 94063
-              </p>
-              <span class="phone">1 (177) 219 67 11</span>
-              <a href="#" class="email">worldclass@masterofcode.com</a>
-            </li>
-            <li class="col-md-3">
-              <a href="#" class="title active">
-                <span class="fa fa-map-marker"></span>
-                Scottsdale
-              </a>
-              <p class="address">
-                7330 East Earll Drive, Suite G 
-                <br>
-                Scottsdale,
-                <br>
-                Arizona 85251
-              </p>
-              <span class="phone">1 (877) 219 32 65</span>
-              <a href="#" class="email">worldclass@masterofcode.com</a>
-            </li>
-            <li class="col-md-3">
-              <a href="#" class="title">
-                <span class="fa fa-map-marker"></span>
-                Netherlands
-              </a>
-              <p class="address">
-                Titaniumstraat 41-G,
-                <br>
-                Rotterdam, 3067GD
-              </p>
-              <span class="phone">1 (447) 219 32 31</span>
-              <a href="#" class="email">worldclass@masterofcode.com</a>
-            </li>
-            <li class="col-md-3">
-              <a href="#" class="title">
-                <span class="fa fa-map-marker"></span>
-                Canada
-              </a>
-              <p class="address">
-                67 Harry Collins 
-                <br>
-                Winnipeg,
-                <br>
-                MB R2M 4N1
-              </p>
-              <span class="phone">9 (894) 778 32 44</span>
-              <a href="#" class="email">worldclass@masterofcode.com</a>
-            </li>
-          </ul>
-        </div>
+<div class="modal fade popup-contact-us" id="popup-contact-us" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <!--<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>-->
+      <div class="modal-body">
         
         <div class="contact-form-block">
-          <div class="container">
+          <div class="">
             
-            <h1 class="caption">
+            <h2 class="caption">
               Request a quote
               <span class="caption-line"></span>
-            </h1>
+            </h2>
+            
+            <h3 class="hint-caption">Request a free quote or consultation, we’ll get back to you in less than 6 hours.</h3>
+            
+            <p class="hint-text">
+              * Investors can typically orient themselves on approx. $15k to build an App of reasonably high quality consisting of a feature set of medium complexity. The cost of Intellectsoft’s projects typically spans anywhere from $40k to $150k,
+              <br>
+              with figures for more advanced Apps reaching more than $200k.
+            </p>
             
             <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_1">
               <form method="post" enctype="multipart/form-data" id="gform_1" action="/mocstagenew/contacts/">
@@ -178,14 +119,11 @@
           </div>
         </div>
         
-        
-      </div> <!--/Page-home-->
-    </div> <!--/Wrapper-->
-    
-    <?php include('partials/_popups.php'); ?>
-    <?php include('partials/_footer.php'); ?>
-    
-    <?php include('partials/_scripts.php'); ?>
-  </body>
-</html>
-
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
