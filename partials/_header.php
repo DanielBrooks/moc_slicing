@@ -3,11 +3,11 @@
     <a class="logo" href="#">
       <img src="/images/logo_colored.png" alt="Company logo">
     </a>
-    <a href="#" class="phone-block" data-toggle="modal" data-target="#popup-contact-us">
+    <div class="phone-block">
       <span class="title">Get a quote</span>
-      <span class="phone">1 (877) 21 93 265</span>
+      <a href="tel:+18772193265" class="phone">1 (877) 21 93 265</a>
       <span class="timing">We'll reply within 6h</span>
-    </a>
+    </div>
     <ul class="custom-nav">
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>

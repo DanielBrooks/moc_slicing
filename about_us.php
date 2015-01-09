@@ -111,7 +111,7 @@
                   <br>
                   to you in less than 6 hours.
                 </h5>
-                <a href="#" class="btn-new btn-new-default">Get a quote</a>
+                <a href="#" class="btn-new btn-new-default" data-toggle="modal" data-target="#popup-contact-us">Get a quote</a>
               </li>
               
             </ul>
