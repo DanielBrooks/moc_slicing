@@ -250,6 +250,7 @@
       </div> <!--/Page-home-->
     </div> <!--/Wrapper-->
     
+    <?php include('partials/_popups.php'); ?>
     <?php include('partials/_footer.php'); ?>
     
     <!--
