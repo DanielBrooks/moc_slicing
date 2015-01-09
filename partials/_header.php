@@ -1,3 +1,4 @@
+<div class="header-holder">
 <header class="header">
   <div class="container">
     <a class="logo" href="#">
@@ -17,5 +18,5 @@
     </ul>
   </div>
 </header>
-
+</div>
 

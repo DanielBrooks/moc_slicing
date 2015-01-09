@@ -9,6 +9,8 @@
         
         <?php include('partials/_header.php'); ?>
         
+        <?php include('partials/_banner_slider.php'); ?>
+        
         <h1 class="home-caption">
           Master of Code is a global company that specializes
           <br>

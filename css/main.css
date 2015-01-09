@@ -185,8 +185,19 @@ a.btn-new-orange {
 /*----------------------------------------------------------------------------------*/
 /*------------------------------> Headers and footer <------------------------------*/
 /*----------------------------------------------------------------------------------*/
+.header-holder,
 .header {
-  //height: 128px;
+  height: 128px;
+}
+.header {
+  background: #FFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 .header .logo {
   display: block;
@@ -355,7 +366,6 @@ a.btn-new-orange {
 .photo-list img {
   height: 100%;
 }
-
 .page-home .home-caption {
   font-size: 27px;
   text-align: center;
@@ -653,6 +663,252 @@ a.btn-new-orange {
 }
 .testimonial-carousel .carousel-indicators > li.active {
   background: rgba(255,255,255,1);
+}
+
+.banner-carousel {
+  color: #FFF;
+}
+.banner-carousel .block {
+  display: block;
+}
+.banner-carousel .item {
+  height: 536px;
+}
+.banner-carousel .carousel-indicators {
+  font-size: 0;
+  bottom: 35px;
+}
+.banner-carousel .carousel-indicators li {
+  border: 1px solid #rgba(255,255,255,0.4);
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  vertical-align: top;
+  color: #FFF;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2em;
+  text-indent: 0;
+  margin: 0 5px;
+}
+.banner-carousel .carousel-indicators .active {
+  background: rgba(255,255,255,0.8);
+  border-color: rgba(255,255,255,0.8);
+}
+.banner-carousel .mark-step-1.active {
+  color: #00B2B2;
+}
+.banner-carousel .mark-step-2.active {
+  color: #85B200;
+}
+.banner-carousel .mark-step-3.active {
+  color: #8C008C;
+}
+.banner-carousel .mark-step-4.active {
+  color: #FF8000;
+}
+.banner-carousel .mark-step-5.active {
+  color: #00A3D9;
+}
+
+.banner-carousel .slide-0 {
+  background-color: #ED6D30;
+}
+.banner-carousel .slide-1 {
+  background-color: #00B2B2;
+}
+.banner-carousel .slide-2 {
+  background-color: #85B200;
+}
+.banner-carousel .slide-3 {
+  background-color: #8C008C;
+}
+.banner-carousel .slide-4 {
+  background-color: #FF8000;
+}
+.banner-carousel .slide-5 {
+  background-color: #00A3D9;
+}
+
+.banner-carousel .item {
+  z-index: 1;
+}
+.banner-carousel .container {
+  height: 100%;
+  position: relative;
+}
+.banner-carousel .container:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.banner-carousel .slide-0 .container:after {
+  background-image:    -moz-radial-gradient(center, ellipse contain, rgba(255,255,77,0.24) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-radial-gradient(center, ellipse contain, rgba(255,255,77,0.24) 0%,rgba(255,255,255,0) 100%);
+  background-image:      -o-radial-gradient(center, ellipse contain, rgba(255,255,77,0.24) 0%,rgba(255,255,255,0) 100%);
+  background-image:     -ms-radial-gradient(center, ellipse contain, rgba(255,255,77,0.24) 0%,rgba(255,255,255,0) 100%);
+  background-image: radial-gradient(ellipse closest-side at center, rgba(255,255,77,0.24) 0%,rgba(255,255,255,0) 100%);
+}
+.banner-carousel .slide-1 .container:after {
+  background-image:    -moz-radial-gradient(center, ellipse contain, rgba(153,255,255,0.6) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-radial-gradient(center, ellipse contain, rgba(153,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image:      -o-radial-gradient(center, ellipse contain, rgba(153,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image:     -ms-radial-gradient(center, ellipse contain, rgba(153,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image: radial-gradient(ellipse closest-side at center, rgba(153,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+}
+.banner-carousel .slide-2 .container:after {
+  background:    -moz-radial-gradient(65% center, ellipse contain, rgba(255,255,153,0.28) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-radial-gradient(65% center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background:      -o-radial-gradient(65% center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background:     -ms-radial-gradient(65% center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(ellipse closest-side at 65% center, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+}
+.banner-carousel .slide-3 .container:after {
+  background:    -moz-radial-gradient(70% center, ellipse contain, rgba(255,201,38,0.38) 0%,rgba(255,201,38,0.30) 30%, rgba(255,255,255,0) 100%);
+  background: -webkit-radial-gradient(70% center, ellipse contain, rgba(255,201,38,0.38) 0%,rgba(255,201,38,0.30) 30%,rgba(255,255,255,0) 100%);
+  background:      -o-radial-gradient(70% center, ellipse contain, rgba(255,201,38,0.38) 0%,rgba(255,201,38,0.30) 30%,rgba(255,255,255,0) 100%);
+  background:     -ms-radial-gradient(70% center, ellipse contain, rgba(255,201,38,0.38) 0%,rgba(255,201,38,0.30) 30%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(ellipse closest-side at 70% center, rgba(255,201,38,0.38) 0%,rgba(255,201,38,0.30) 30%,rgba(255,255,255,0) 100%);
+}
+.banner-carousel .slide-4 .container:after {
+  background:    -moz-radial-gradient(65% center, circle contain, rgba(255,201,38,0.6) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-radial-gradient(65% center, circle contain, rgba(255,201,38,0.6) 0%,rgba(255,255,255,0) 100%);
+  background:      -o-radial-gradient(65% center, circle contain, rgba(255,201,38,0.6) 0%,rgba(255,255,255,0) 100%);
+  background:     -ms-radial-gradient(65% center, circle contain, rgba(255,201,38,0.6) 0%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(circle closest-side at 65% center, rgba(255,201,38,0.6) 0%,rgba(255,255,255,0) 100%);
+}
+.banner-carousel .slide-5 .container:after {
+  background:    -moz-radial-gradient(center, ellipse contain, rgba(255,255,153,0.28) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-radial-gradient(center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background:      -o-radial-gradient(center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background:     -ms-radial-gradient(center, ellipse contain, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(ellipse closest-side at center, rgba(255,255,153,0.28) 0%,rgba(255,255,255,0) 100%);
+}
+
+
+.banner-carousel .slide-0 {
+  text-align: center;
+}
+.banner-carousel .slide-0 .caption,
+.banner-carousel .slide-0 .sub-caption {
+  font-weight: 900;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.banner-carousel .slide-0 .caption {
+  font-size: 120px;
+  padding: 160px 0 0;
+}
+.banner-carousel .slide-0 .sub-caption {
+  font-size: 73px;
+}
+.banner-carousel .slide-0 .icon-arrow {
+  display: inline-block;
+  width: 9px;
+  height: 17px;
+  background: url(../images/sprite.png) -40px 0 no-repeat;
+  margin: 0 0 -2px 8px;
+}
+.banner-carousel .slide-0 .btn-new {
+  color: #FFF;
+  background: transparent;
+  margin: 28px 0 0;
+  border-color: rgba(255,255,255,0.8);
+}
+
+.banner-carousel .number {
+  font-size: 35px;
+  margin: 124px 0 3px;
+}
+.banner-carousel .number .digit {
+  font-weight: 500;
+}
+
+.banner-carousel .slide-1 .caption {
+  font-size: 94px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.95em;
+  float: left;
+}
+.banner-carousel .slide-1 .hint {
+  float: right;
+  margin-top: 205px;
+  font-size: 25px;
+  line-height: 1.1em;
+}
+.banner-carousel .slide-1 .amount {
+  width: 317px;
+  height: 249px;
+  background: url(../images/icon_leaves.png) no-repeat;
+  text-align: center;
+  overflow: hidden;
+  margin: 10px 0 0 -5%;
+  position: absolute;
+  left: 50%;
+  top: inherit;
+}
+.banner-carousel .slide-1 .amount .year {
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 1.2em;
+  margin: 0 0 0 10px;
+}
+.banner-carousel .slide-1 .amount .digit {
+  font-size: 174px;
+  font-weight: 500;
+  letter-spacing: -25px;
+  margin: 40px 0 0 -30px;
+  line-height: 0.7em;
+}
+
+.banner-carousel .slide-2 .caption {
+  font-size: 66px;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.banner-carousel .slide-2 .hint {
+  font-size: 27px;
+  line-height: 1.1em;
+  margin: 15px 0 0;
+}
+
+.banner-carousel .slide-3 .caption {
+  font-size: 66px;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.banner-carousel .slide-3 .hint {
+  font-size: 27px;
+  line-height: 1.1em;
+  margin: 15px 0 0;
+}
+
+.banner-carousel .slide-4 .caption {
+  font-size: 59px;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.banner-carousel .slide-5 .caption {
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.banner-carousel .slide-5 .hint {
+  font-size: 24px;
+  line-height: 1.1em;
+  margin: 5px 0 0;
 }
 
 /*----------------------------------------------------------------------------------*/
